@@ -15,5 +15,7 @@ Puntos:
 Piensen de manera artistica. La nota máxima es 100.
 
 ## Toon Shader
+https://user-images.githubusercontent.com/43117675/89831460-19b34380-db1b-11ea-9382-325925577d07.png
 
 ## Gourad Shader
+https://user-images.githubusercontent.com/43117675/89831504-33ed2180-db1b-11ea-9af5-14e7160806ab.png
