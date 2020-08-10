@@ -17,7 +17,9 @@ main_menu = """Opciones:
         1. Cambiar color de fondo (default = negro)
         2. Aplicar toon shader a una cara
         3. Aplicar gourad shader a una cara
-        4. Salir
+        4. Aplicar toon shader a la tierra
+        5. Aplicar gourad shader a la tierra
+        6. Salir
         """
 
 wants_to_continue = True
@@ -58,8 +60,8 @@ while(wants_to_continue):
     elif(option == 2):
         render.current_texture = Texture('./textures/model.bmp')
         render.current_shader = toon
-        render.loadModel('./models/model.obj', (500, 500, 0), (300, 300, 300), False)
-        render.glFinish("toon.bmp")
+        render.loadModel('./models/model.obj', (500, 500, 0), (1, 1, 1), False)
+        render.glFinish("toonFace.bmp")
         print("Termiado!")
         wants_to_continue = False
 
@@ -67,13 +69,31 @@ while(wants_to_continue):
     elif(option == 3):
         render.current_texture = Texture('./textures/model.bmp')
         render.current_shader = gourad
-        render.loadModel('./models/model.obj', (500, 500, 0), (300, 300, 300), False)
-        render.glFinish("gourad.bmp")
+        render.loadModel('./models/model.obj', (500, 500, 0), (1, 1, 1), False)
+        render.glFinish("gouradFace.bmp")
+        print("Termiado!")
+        wants_to_continue = False
+
+    ##  apply toon shader to a face
+    elif(option == 4):
+        render.current_texture = Texture('./textures/earthDay.bmp')
+        render.current_shader = toon
+        render.loadModel('./models/earth.obj', (500, 500, 0), (1, 1, 1), False)
+        render.glFinish("toonEarth.bmp")
+        print("Termiado!")
+        wants_to_continue = False
+
+    ##  apply gourad shader to a face
+    elif(option == 5):
+        render.current_texture = Texture('./textures/earthDay.bmp')
+        render.current_shader = gourad
+        render.loadModel('./models/earth.obj', (500, 500, 0), (1, 1, 1), False)
+        render.glFinish("gouradEarth.bmp")
         print("Termiado!")
         wants_to_continue = False
 
     ##  exits the program
-    elif(option == 4):
+    elif(option == 6):
         wants_to_continue = False
         print("BYEEE")
 
