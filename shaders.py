@@ -142,37 +142,37 @@ def static(render, **kwargs):
 
     rand = random.randint(0, 7)
 
-    if (rand % 5) == 0 :
+    if (rand % 8) == 0 :
         b = 1
         g = 1
         r = 1
 
-    elif (rand % 5) == 1 :
+    elif (rand % 8) == 1 :
         b = 1 / 255
         g = 252 / 255
         r = 253 / 255
 
-    elif (rand % 5) == 2 :
+    elif (rand % 8) == 2 :
         b = 1
         g = 1
         r = 1 / 255
 
-    elif (rand % 5) == 3 :
+    elif (rand % 8) == 3 :
         b = 1 / 255
         g = 1
         r = 0
 
-    elif (rand % 5) == 4 :
+    elif (rand % 8) == 4 :
         b = 254 / 255
         g = 0
         r = 254/ 255
 
-    elif (rand % 5) == 5 :
+    elif (rand % 8) == 5 :
         b = 0
         g = 0
         r = 254 / 255
 
-    elif (rand % 5) == 6 :
+    elif (rand % 8) == 6 :
         b = 254 / 255
         g = 0
         r = 0
