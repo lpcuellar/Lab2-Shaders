@@ -21,4 +21,4 @@ Piensen de manera artistica. La nota máxima es 100.
 ![gourad](https://user-images.githubusercontent.com/43117675/89831504-33ed2180-db1b-11ea-9af5-14e7160806ab.png)
 
 ## Static Shader
-![staticF](https://user-images.githubusercontent.com/43117675/90434569-df9df080-e08a-11ea-9213-948d581e175c.png
+![staticF](https://user-images.githubusercontent.com/43117675/90434569-df9df080-e08a-11ea-9213-948d581e175c.png)
