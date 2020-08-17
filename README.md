@@ -9,13 +9,16 @@ A lo largo de la semana, van a tener la libertad de discutir diferentes implemen
 Puntos:
 
 * 30 puntos, un toon shader.
-* 50 puntos por hacer la implementación de un shader de su elección o inventado por usted (GOURAD)
-* 50 puntos por hacer la implementación de un shader de su eleccióno inventado por usted (FALTA IMPLEMENTAR)
+* 50 puntos por hacer la implementación de un shader de su elección o inventado por usted (PHONG)
+* 50 puntos por hacer la implementación de un shader de su eleccióno inventado por usted (STATIC)
 
 Piensen de manera artistica. La nota máxima es 100.
 
 ## Toon Shader
 ![toon](https://user-images.githubusercontent.com/43117675/89831460-19b34380-db1b-11ea-9382-325925577d07.png)
 
-## Gourad Shader
+## Phong Shader
 ![gourad](https://user-images.githubusercontent.com/43117675/89831504-33ed2180-db1b-11ea-9af5-14e7160806ab.png)
+
+## Static Shader
+![staticF](https://user-images.githubusercontent.com/43117675/90420065-aeb2c100-e074-11ea-8e1c-e290ac42cdee.png)
